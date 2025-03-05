@@ -40,9 +40,9 @@
 // }
 
 
-function checkAge2(age){return (age > 18) ? true : confirm('Родители разрешили?')}
+// function checkAge2(age){return (age > 18) ? true : confirm('Родители разрешили?')}
 
-console.log(checkAge2(15));
+// console.log(checkAge2(15));
 
 
 

@@ -158,7 +158,7 @@
 // }
 // else if ('Я вас не знаю')
 
-let user = prompt('Кто там?')
+// let user = prompt('Кто там?')
 
 // if(user === "Админ"){
 
