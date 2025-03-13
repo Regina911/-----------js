@@ -45,3 +45,31 @@
 
 
 
+
+
+
+
+
+function bubbleSort(arrNum){
+    for(i=0; i<arrNum.length; i++){
+        for(j=0; j<arrNum.length; j++){
+            if(arrNum[j]>arrNum[j+1]){
+                let temp = arrNum[j]
+                arrNum[j] = arrNum[j+1]
+                arrNum[j+1] = temp
+            }
+        }
+        
+    }
+    return arrNum
+}
+console.log(bubbleSort([3,5,4,1,2]));
+
+
+
+
+
+
+
+
+
